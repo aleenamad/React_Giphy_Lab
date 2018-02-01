@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import Search from './Search';
+
 import './App.css';
+import SearchContainer from './SearchContainer';
 
 class Home extends Component {
   render() {
@@ -8,7 +9,7 @@ class Home extends Component {
       <div className="Home">
         <h1>Hello World</h1>
         <h2>Search for your Giphy Below</h2>
-        <Search query={''}/>
+        <SearchContainer />
       </div>
     );
   }
